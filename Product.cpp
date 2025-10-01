@@ -46,5 +46,7 @@ float Product::getWeight() const
 
 void Product::showInfo() const
 {
-
+    cout << "Product: " << name << endl;
+    cout << "Price: " << price << endl;
+    cout << "Weight: " << weight << endl;
 }
