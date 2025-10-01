@@ -2,12 +2,14 @@
 
 Product::Product()
 {
-
+    name = "NoName";
+    price = 0;
+    weight = 0;
 }
 
 Product::Product(string name, float price, float weight)
 {
-
+    this->name = name;
 }
 
 void Product::setName(string name)
