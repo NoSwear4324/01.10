@@ -30,6 +30,6 @@ void Buy::showBuy() const
     Product::showInfo();
     cout << "Amount: " << endl;
     cout << "--------------------------\n";
-    cout << "totalPrice: " << calctotalPrice << endl;
-    cout << "totalWeight: " << calctotalWeight << endl;
+    cout << "totalPrice: " << calctotalPrice() << endl;
+    cout << "totalWeight: " << calctotalWeight() << endl;
 }
