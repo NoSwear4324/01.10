@@ -27,5 +27,9 @@ float Buy::calctotalWeight() const
 
 void Buy::showBuy() const
 {
-
+    Product::showInfo();
+    cout << "Amount: " << endl;
+    cout << "--------------------------\n";
+    cout << "totalPrice: " << calctotalPrice << endl;
+    cout << "totalWeight: " << calctotalWeight << endl;
 }
