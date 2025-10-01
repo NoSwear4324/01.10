@@ -3,6 +3,7 @@
 #include "Printer.h"
 #include "Xerox.h"
 #include "Product.h"
+#include "Buy.h"
 
 int main()
 {
@@ -20,5 +21,8 @@ int main()
     //a.copyFile(user, 3);
 
     Product a("apple", 20, 1);
-    a.showInfo();
+    /*a.showInfo();*/
+
+    Buy b(a, 5);
+
 }
