@@ -24,5 +24,6 @@ int main()
     /*a.showInfo();*/
 
     Buy b(a, 5);
+    b.showBuy();
 
 }
