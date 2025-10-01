@@ -6,9 +6,9 @@
 
 int main()
 {
-    string user;
+   /* string user;
     cout << "Enter file name: " << endl;
-    cin >> user;
+    cin >> user;*/
 
     //Scanner hp;
     //hp.scanFile(user);
