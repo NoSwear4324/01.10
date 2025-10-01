@@ -1,28 +1,28 @@
 #include "Buy.h"
 
-Buy::Buy(Product p, int amount):Product(p)
+Buy::Buy(Product p, int amount) :Product(p)
 {
-
+    this->amount = amount;
 }
 
 void Buy::setAmount(int amount)
 {
-
+    this->amount = amount;
 }
 
 int Buy::getAmount() const
 {
-    return 0;
+    return amount;
 }
 
 float Buy::calctotalPrice() const
 {
-    return 0.0f;
+    return amount * getPrice();
 }
 
 float Buy::calctotalWeight() const
 {
-    return 0.0f;
+    return amount * getWeight();
 }
 
 void Buy::showBuy() const
