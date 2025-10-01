@@ -125,11 +125,13 @@
   <ItemGroup>
     <ClCompile Include="01.10.cpp" />
     <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="Product.cpp" />
     <ClCompile Include="Scanner.cpp" />
     <ClCompile Include="Xerox.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Printer.h" />
+    <ClInclude Include="Product.h" />
     <ClInclude Include="Scanner.h" />
     <ClInclude Include="Xerox.h" />
   </ItemGroup>
