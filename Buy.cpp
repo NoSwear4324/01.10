@@ -1,6 +1,6 @@
 #include "Buy.h"
 
-Buy::Buy(Product p, int amount)
+Buy::Buy(Product p, int amount):Product(p)
 {
 
 }
