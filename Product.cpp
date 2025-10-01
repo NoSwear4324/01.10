@@ -10,36 +10,38 @@ Product::Product()
 Product::Product(string name, float price, float weight)
 {
     this->name = name;
+    this->price = price;
+    this->weight = weight;
 }
 
 void Product::setName(string name)
 {
-
+    this->name = name;
 }
 
 void Product::setPrice(float price)
 {
-
+    this->price = price;
 }
 
 void Product::setWeight(float weight)
 {
-
+    this->weight = weight;
 }
 
 string Product::getName() const
 {
-    return string();
+    return name;
 }
 
 float Product::getPrice() const
 {
-    return 0.0f;
+    return price;
 }
 
 float Product::getWeight() const
 {
-    return 0.0f;
+    return weight;
 }
 
 void Product::showInfo() const
